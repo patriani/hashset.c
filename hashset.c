@@ -21,6 +21,18 @@
 static const unsigned int prime_1 = 73;
 static const unsigned int prime_2 = 5009;
 
+/*
+int hash_prime_1(int data){ // return the key of hash function for prime_1 size definition 
+ 
+    return data%prime_1;
+}
+
+int hash_prime_2(int data){ // return the key of hash function for prime_1 size definition 
+ 
+    return data%prime_2;
+}
+*/
+
 hashset_t hashset_create()
 {
     hashset_t set = calloc(1, sizeof(struct hashset_st));
